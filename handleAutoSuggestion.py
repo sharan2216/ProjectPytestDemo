@@ -11,7 +11,7 @@ import time
 
 
 class DemoAutoSuggest():
-    def demo_autosuggest_dropdpwn(self):
+    def demo_autosuggest_dropdown(self):
         driver = webdriver.Chrome()
         driver.get("https://www.yatra.com/")
         driver.maximize_window()
@@ -33,4 +33,4 @@ class DemoAutoSuggest():
 
 
 obj = DemoAutoSuggest()
-obj.demo_autosuggest_dropdpwn()
+obj.demo_autosuggest_dropdown()
